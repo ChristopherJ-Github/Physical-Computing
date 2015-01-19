@@ -5,6 +5,3 @@ void setup() {
   pinMode(led, OUTPUT);    
   digitalWrite(led, HIGH);    
 }
-
-void loop() {
-}

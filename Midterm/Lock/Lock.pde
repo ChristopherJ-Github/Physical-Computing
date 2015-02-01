@@ -29,7 +29,7 @@ int lightAverage = 0;
 
 String state = "setting";
 
-//A program that turns on the lights in an image when physical lights are on
+//A lock program that uses a potentiometer, siwtch and light sensor
 
 void setup() {
   

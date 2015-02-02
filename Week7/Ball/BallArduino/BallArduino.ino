@@ -1,9 +1,14 @@
+#include <Servo.h> 
+
 int incomingByte;   
+Servo myservo;
+int pos = 0;
 
 void setup() {
 
   Serial.begin(9600);
   myservo.attach(9);
+  myservo.write(0);
 }
 
 void loop() {
@@ -13,11 +18,15 @@ void loop() {
     incomingByte = Serial.read();
 
     if (incomingByte == 'H') {
-      digitalWrite(ledPin, HIGH);
-    }
 
+      myservo.write(180); 
+      delay (15);  
+    }
+    
     if (incomingByte == 'L') {
-      digitalWrite(ledPin, LOW);
+
+      myservo.write(0); 
+      delay (15);  
     }
   }
 }

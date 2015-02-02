@@ -10,10 +10,8 @@ void setup() {
  
 void loop() {      
   
-  if (pos == 0) {
-    pos = 180;
-  } else {
-    pos = 0;
-  }
+  pos = (pos + 1) % 180;
+  myservo.write(pos); 
+  
   delay (15);    
 } 

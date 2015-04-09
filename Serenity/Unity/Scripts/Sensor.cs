@@ -34,7 +34,7 @@ public class Sensor : Singleton<Sensor> {
 	/// play a song. Optimally this would be in the form of running
 	/// in place to get the user's heart rate up, putting on the sensor,
 	/// and then running the program. This well let Calibrate get a large
-	/// range of value that the user can produce.
+	/// range of values that the user can produce.
 	/// </summary>
 	IEnumerator Calibrate () {
 

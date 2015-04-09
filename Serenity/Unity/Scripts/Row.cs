@@ -26,7 +26,7 @@ public class Row : MonoBehaviour {
 	/// <summary>
 	/// Updates the song's intensity based on the slider value
 	/// as well as the background color. Array of songs held in MusicManager
-	/// are updated right away to show imediate results
+	/// are updated right away to show immediate results
 	/// </summary>
 	public void UpdateIntensity () {
 

@@ -3,6 +3,10 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 
+/// <summary>
+///Class controlling the spawning and deletion of 
+///song titles
+/// </summary>
 public class RowSpawner : Singleton<RowSpawner> {
 
 	public GameObject row;
@@ -25,7 +29,7 @@ public class RowSpawner : Singleton<RowSpawner> {
 		StartCoroutine (SetDefaultPosition ());
 	}
 
-	IEnumerator SetDefaultPosition () {//no idea what's moving the bar in the first 2 frames so this was made to override it
+	IEnumerator SetDefaultPosition () {//no idea what's moving the scroll bar in the first 2 frames so this was made to override it
 
 		int frames = 2;
 		while (frames > 0) {

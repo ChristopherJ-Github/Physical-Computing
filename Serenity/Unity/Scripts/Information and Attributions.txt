@@ -1,0 +1,15 @@
+Project Title: Serenity
+Student Name: Christopher Jadoo
+Course: DIGF 2B03 Physical Computing
+University: OCAD University
+Creation Date: 8/4/15
+
+Based on:
+
+Title: PulseSensorAmped_Arduino_1dot4, 
+Name: Joel Murphy and Yury Gitman,
+URL: https://github.com/WorldFamousElectronics/PulseSensor_Amped_Arduino/blob/master/PulseSensorAmped_Arduino_1dot4/PulseSensorAmped_Arduino_1dot4.ino
+
+Title: unifycommunity Singleton examples, 
+Name: N/A,
+URL: http://wiki.unity3d.com/index.php/Singleton

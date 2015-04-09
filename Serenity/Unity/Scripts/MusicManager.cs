@@ -76,7 +76,7 @@ public class MusicManager : Singleton<MusicManager> {
 	}
 
 	/// <summary>
-	/// Switches the new song to a new one
+	/// Switches the current song to a new one
 	/// </summary>
 	public void UpdateSong () {
 
